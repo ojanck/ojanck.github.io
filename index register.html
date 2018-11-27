@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            Jember Tourist Centre
+        </title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="row">
+                <div class="logo">
+                <img src="logo-unej-baku.png">
+                </div>
+                <ul class="main-nav">
+                    <li class="active"><a href="index.html"> HOME</a></li>
+                    <li><a href="index2.html"> TOURIST SPOT</a></li>
+                    <li><a href="index3.html"> ABOUT</a></li>
+                    <li><a href="index4.html"> CONTACT US</a></li>
+                    <li><a href="index5.html"> NEWS</a></li>
+                </ul>
+                </div>
+        </header>
+    <div class = "konten" >
+               <div class="text">
+                    <form class="form" name="bio" method="post" action=""><TABLE>
+                         <input class = "box1" placeholder="Nama Pariwisata" name="NamaPariwisata"  id="1" value=""><br><br>
+                         <input class = "box" placeholder="Deskripsi" name="Deskripsi"  id="3" value=""><br><br>
+                         <input class="box3" placeholder="Tanggal Dibangun" type="date" name="TanggalDibangun" id="5" value=""><br><br>
+                         <input type="file" class="box3" id="6" name="gambar" value="">
+                        <br></TABLE><br><br>
+                        <input type="button" class="daftar1" value="Daftar" onclick="formInput()">   
+                   </form>
+            </div>
+</div>
+<div class="text2">
+     <li>Nama Pariwisata :</li><br>
+     <li>Deskripsi :</li><br>
+     <li>Tanggal Dibangun :</li><br>
+     <li>Gambar Pariwisata :</li><br>
+     </div>
+<table class="la" border="1" id="output">
+     <tr>
+          <th>Nama Pariwisata</th>
+          <th>Deskripsi</th>
+          <th>Tanggal Dibangun</th>
+          <th>Gambar</th>
+     </tr>
+</table>
+</body>
+</html>
