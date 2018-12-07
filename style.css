@@ -276,7 +276,7 @@ img
     border-radius: 150%;
 }
 
-.text
+.text1
 {
     position: absolute;
     margin-top: 10%;
@@ -300,7 +300,6 @@ img
     margin-top: 40%;
     margin-left: 33%;
     color: white;
-    opacity: 0;
 }
 
 .payangan
